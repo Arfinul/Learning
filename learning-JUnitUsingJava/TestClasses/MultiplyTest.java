@@ -1,8 +1,10 @@
-package ProgrammingKnowledge;
+package TestClasses;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import MainClass.MyJUnitClass;
 
 public class MultiplyTest {
 

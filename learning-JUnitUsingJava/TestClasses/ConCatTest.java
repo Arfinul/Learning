@@ -1,8 +1,10 @@
-package ProgrammingKnowledge;
+package TestClasses;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import MainClass.MyJUnitClass;
 	
 public class ConCatTest {
 
