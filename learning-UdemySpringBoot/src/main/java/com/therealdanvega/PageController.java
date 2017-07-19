@@ -16,6 +16,7 @@ public class PageController {
 		this.notificationService = notificationService;
 	}
 
+    
     @RequestMapping("/")
     public String home(){
         return notificationService.toString();
