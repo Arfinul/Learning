@@ -10,6 +10,8 @@ public class ProfileDemoApplication {
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(ProfileDemoApplication.class, args);
 
-//        System.out.println(ctx.getBean("datasource").toString());
+       System.out.println(ctx.getBean("datasource").toString());
     }
 }
+
+
