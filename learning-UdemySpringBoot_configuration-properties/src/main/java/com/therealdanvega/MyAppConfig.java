@@ -7,7 +7,9 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "myconfig")
 public class MyAppConfig {
-
+    
+	
+//	@Value("${myconfig.app-name}")
     private String appName;
     private String appDescription;
     private String adminFirstName;
